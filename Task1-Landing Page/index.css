@@ -1,0 +1,278 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #151517;
+    scroll-behavior: smooth;
+   
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+body{
+    background-color: #f1f1f1;
+    
+}
+main{
+    padding:33px 165px;
+    padding-top: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    line-height: 100px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.left{
+    font-weight: 700;
+    font-size: 22px;
+    cursor: pointer;
+}
+ a{
+    text-decoration: none;
+    font-weight: 700;
+}
+nav a:hover,
+nav a:active{
+    color: #EEBF63;
+}
+/* Nav end */
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-content{
+    margin-top: 40px;
+}
+.hero-content h4{
+    padding-top: 30px;
+    font-weight: 500;
+    color: #828282;
+}
+.hero-content h3{
+    font-weight: 600;
+    font-size: 48px;
+}
+.hero-content h3 span{
+    color: #EEBF63;
+}
+.hero-content p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.hero-image img{
+    width: 553px;
+    height: 575px;
+}
+.hero-follow{
+    display: flex;
+    gap: 30px;
+    margin-top: 33px;
+}
+.follow-p{
+ color: #828282;
+ line-height: 30px;
+}
+.btn{
+    background-color: #EEBF63;
+    padding:16px 28px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 44px;
+    margin-right: 30px;
+    transition-duration: .3s;
+}
+.btn i{
+    margin-right: 12px;
+}
+.btn:hover,.pro-btn:hover{
+    background:transparent;
+    border: 2px solid #EEBF63;
+}
+.btn-inverse:hover{
+    background-color: #EEBF63;
+}
+.btn-inverse{
+    background:transparent;
+    border: 2px solid #EEBF63;
+}
+/* hero section  end*/
+
+
+.card-section{
+    display: flex;
+    background-color: #E9E9E9;
+    border-radius: 16px;
+    gap: 60px;
+    padding: 65px 63px;
+}
+.card-top {
+    display: flex;
+    justify-content: space-between;
+}
+.card-top img{
+    height: 80px;
+}
+.card-content h1{
+    margin-top: 70px;
+    margin-bottom: 19px;
+ 
+}
+.card-p{
+    line-height: 45px;
+    font-size: 20px;
+}
+
+/* card section end */
+
+
+.project-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.project-image{
+    display: flex;
+    gap: 30px;
+}
+
+.pro-btn{
+    margin:0px;
+    height: max-content;
+    padding:16px 28px;
+    background-color: #EEBF63;
+    border-radius: 6px;
+    transition-duration: .3s;
+}
+.project-section-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.project-image img{
+    width: 500px;
+}
+
+/* project section end */
+
+
+.why-me{
+    margin-top: 80px;
+   
+    text-align: center;
+}
+.flex-child img{
+    width: 239.75px;
+}
+.flex-wrapper{
+    margin-top: 50px;
+    display: flex;
+    gap: 22px;
+}
+.flex-child{
+    display: flex;
+    width: 241px;
+    gap: 7px;
+    flex-direction: column;
+}
+.flex-child h4{
+    margin-top: 25px;
+}
+/* project end */
+article{
+    margin-top: 100px;
+    border-radius: 10px;
+    display: flex;
+    padding:63px 85px;
+    gap: 140px;
+    background-color: #EEBF63;
+}
+.article-title{
+    width: 265px;
+}
+.article-btns{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.art-btn{
+    background-color: #ffff;
+    padding:16px 28px;
+    border-radius: 6px;
+    transition-duration: .3s; 
+}
+.art-btn:hover{
+    background: transparent;
+    border: 2px solid #ffff;
+}
+.art-btn i{
+    margin-right: 5px;
+}
+.logos{
+    margin-top: 50px;
+    width: 100%;
+}
+
+/* article end */
+
+
+.final{
+    background-color: #6FC2C5;
+    padding: 50px 0px;
+}
+.testimonal-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 52px;
+
+}
+.final h1{
+    margin: 0px auto;
+    width: 609px;
+    color: #ffff;
+}    
+.testimonals{
+    background-color: #ffff;
+    width: 530px;
+    padding: 52px 55px;
+    border-radius: 18px;
+    border-top-right-radius: 0px;
+}
+.testimonals p{
+    font-size: 24px;
+    margin-bottom: 100px;
+}
+
+
+/* testimonal end */
+
+
+footer{
+    display: flex;
+    line-height: 150px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.footer-title{
+    font-size: 36px;
+}
+.footer-nav a{
+    scroll-behavior: smooth;
+}
+
+.fade-in{
+    opacity:0;
+    transition: opacity 300ms ease-in;
+}
+.fade-in.appear{
+    opacity: 1;
+}
